@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sobre-nos {
+    background-color: white;
+    padding: 40px;
+}
+
+.sobre-nos-imagem img {
+    width: 100%;
+    padding-left: 45px;
+}
+
+#img-idoso{
+    width: 400px;
+}
+
+.sobre-nos-conteudo {
+    flex: 1;
+    padding-left: 15px;
+}
+
+.sobre-nos h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.sobre-nos p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.sobre-nos ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.sobre-nos ul li {
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.nossos-servicos {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.nossos-servicos h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.servicos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.servico {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.servico img {
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.icon.green {
+    background-color: green;
+    border-radius: 50%;
+}
+
+.icon.star {
+    background-color: green;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.icon.triangle {
+    background-color: green;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.icon.square {
+    background-color: green;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.back-button {
+    display: inline-block;
+    position: fixed; /* Fixa o botão no canto superior esquerdo */
+    top: 20px;       /* Espaçamento do topo */
+    left: 20px;      /* Espaçamento da esquerda */
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    z-index: 1000;   /* Garante que o botão esteja acima de outros elementos */
+}
+
+.back-button:hover {
+    background-color: #ffaa00;
+}
+
+.servico {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block; /* Ajuste para garantir que o link preencha o conteúdo */
+    color: black; /* Cor do texto dentro do bloco */
+    text-decoration: none; /* Remove sublinhado do texto */
+}
+
+.servico:hover {
+    border-color: #ffcc00; /* Efeito hover para destacar o bloco ao passar o mouse */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}

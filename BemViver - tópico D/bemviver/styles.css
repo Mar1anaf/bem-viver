@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F7F7;
+    height: 100vh;
+}
+
+header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-side {
+    width: 50%;
+    padding: 40px;
+    background-color: #DFF0E6;
+    height: 50px; /*FAIXA VERDE */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-side h1 {
+    color: #6ABF95;
+    font-size: 4rem;
+    margin-bottom: 25px;
+}
+
+.left-side p {
+    color: #2C3E50;
+    font-size: 1.4rem; /*FRASE*/
+}
+
+.right-side {
+    width: 50%;
+    background-color: #002451;
+    padding: 40px;
+    height: 100vh; /* card azul */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.image-text img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.image-text p {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.frase {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.btn-access, .btn-register {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn-access {
+    background-color: #ADDABE;
+    color: #011752;
+}
+
+.btn-register {
+    background-color: #ADDABE;
+    color: #011752;
+}
